@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">",
   Port: 80, //Which port website gonna be hosted
   SupportServer: "https://discord.io/sciencegear", // Support Server Link
-  Token: process.env.Token || "MTE0NTU4MjQ3ODc3NDUwNTQ3Mw.G1DFeJ.YCKf3qB5QeFE6jbxNEvyqjwQz2LE6crbSZO_FA", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "1145582478774505473", 
-  ClientSecret: process.env.Discord_ClientSecret || "ihrZThlFemFXtGS90fA7OlfmO77btTAy", 
+  Token: process.env.Token || "", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", 
+  ClientSecret: process.env.Discord_ClientSecret || "", 
   Scopes: ["identify", "guilds", "applications.commands"],
   ServerDeafen: true, 
   DefaultVolume: 100,
@@ -27,9 +27,9 @@ module.exports = {
 
   Lavalink: {
     id: "Main",
-    host: "ssl.horizxon.studio", 
+    host: "", 
     port: 443, 
-    pass: "horizxon.studio", 
+    pass: "", 
     secure: true, 
     retryAmount: 200, 
     retryDelay: 40, 
