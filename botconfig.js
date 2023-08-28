@@ -12,7 +12,7 @@ module.exports = {
   DefaultVolume: 100,
   CallbackURL: "/api/callback", 
   "24/7": false,
-  CookieSecret: "Coscu es GOD",
+  CookieSecret: "INSERTAR COOKIE SECRET",
   IconURL:
     "https://media.tenor.com/sce9SDRey4EAAAAi/disc.gif",
   EmbedColor: "RANDOM", 
